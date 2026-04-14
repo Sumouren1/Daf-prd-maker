@@ -71,9 +71,14 @@ Skill 依赖以下 Claude Code 内置能力，无需额外安装：
 daf-prd-maker/
 ├── README.md                     ← 本文件
 ├── SKILL.md                      ← 主流程脚本（Claude 读这个执行）
-└── templates/
-    ├── flow-doc-format.md        ← 功能流程文档写作规范
-    └── schema-format.md          ← Schema 文档写作规范
+├── templates/
+│   ├── prd-template.md           ← PRD 模板（9章节标准结构）
+│   ├── context-sample.md         ← _context.md 示例（公司背景上下文格式）
+│   ├── flow-doc-format.md        ← 功能流程文档写作规范
+│   └── schema-format.md          ← Schema 文档写作规范
+└── examples/
+    ├── flow-doc-sample.md        ← 功能流程文档示例输出
+    └── schema-sample.md          ← Schema 文档示例输出
 ```
 
 ---
